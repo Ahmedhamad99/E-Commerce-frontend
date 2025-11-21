@@ -15,13 +15,10 @@
 
 
 ## Setup
-1. clone  https://github.com/Ahmedhamad99/E-Commerce-backend.git
-2. cp .env.example .env and set DB credentials
-3. composer install
-4. php artisan key:generate
-5. php artisan jwt:secret
-6. php artisan migrate
-7. php artisan serve
+1. clone  https://github.com/Ahmedhamad99/E-Commerce-frontend.git
+2. npm install
+3. npm run dev
+
 
 
 ###  Authentication
