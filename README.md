@@ -14,6 +14,16 @@
 - **Dark Mode + Toast Notifications + Global Loader**
 
 
+## Setup
+1. clone  https://github.com/Ahmedhamad99/E-Commerce-backend.git
+2. cp .env.example .env and set DB credentials
+3. composer install
+4. php artisan key:generate
+5. php artisan jwt:secret
+6. php artisan migrate
+7. php artisan serve
+
+
 ###  Authentication
 - Login  
 - Register  
@@ -70,30 +80,3 @@
 | Bootstrap 5 | UI components |
 | Bootstrap Icons | Icons |
 | JWT | Auth token |
-
----
-
-# 📂 Project Structure
-
-/
-├── assets/
-├── components/
-│ ├── ToastContainer.vue
-│ └── LoadingOverlay.vue
-├── layouts/
-│ └── DashboardLayout.vue
-├── pages/
-│ ├── Login.vue
-│ ├── Register.vue
-│ ├── Dashboard.vue
-│ ├── Products.vue
-│ └── Orders.vue
-├── router/
-│ └── index.js
-├── stores/
-│ ├── auth.js
-│ └── ui.js
-├── services/
-│ └── api.js
-├── App.vue
-└── main.js
